@@ -85,7 +85,7 @@ while True:
         device.letter(1, 2, int(year / 10))
         device.letter(1, 1, year % 10)
 	if mode == 3:
-		device.write_text(1,"Pozn "+weather.data1[0:2]+"C") #showing weather - make sure that your 7 segment display is long enought
+		device.write_text(1,"Poz"+weather.data1+"C") #showing weather - make sure that your 7 segment display is long enought
 	if mode == 4:#auto
 		auto = 1;
     	mode = 1;
