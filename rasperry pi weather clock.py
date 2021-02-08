@@ -88,7 +88,7 @@ while True:
 		device.write_text(1,"Poz"+weather.data1+"C") #showing weather - make sure that your 7 segment display is long enought
 	if mode == 4:#auto
 		auto = 1;
-    	mode = 1;
+    		mode = 1;
 
 	if not GPIO.input(button2):
 		if auto == 1:
@@ -105,9 +105,9 @@ while True:
 			device.write_text(1, "DATE")
 		if mode == 3
 			device.write_text(1, "WEATHER")
-    	if mode == 4:
-    		device.write_text(1, "AUTO")
-		time.sleep(1)
+    		if mode == 4:
+    			device.write_text(1, "AUTO")
+			time.sleep(1)
     #Brightness
 	elif not GPIO.input(button1):
         if level <= 2:
