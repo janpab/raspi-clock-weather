@@ -28,7 +28,7 @@ def autogo():
 			mode = 1
 		print "Auto Switch: ", mode
 
-#depens of weather api
+#depens on weather api
 def weather
 	global mode
 	global tick
